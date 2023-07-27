@@ -5,6 +5,7 @@ from pkg_resources import parse_requirements
 with open('requirements.txt') as f:
     requirements = [str(req) for req in parse_requirements(f)]
 
+
 setup(
     name="git_example",
     version="0.1.0",
